@@ -18,14 +18,10 @@
 ### Last step
 - install required package on termux
 - include: fastboot and adb
-- [install this file](https://pixeldrain.com/u/zC7X8v8u)
-- then go to your file download directory
-- example: if ur file in Download directory
 - use this command
 
 ```console
-cd /sdcard/Download/
-bash setup.sh
+curl -LSs https://raw.githubusercontent.com/kylieeXD/onyx/refs/heads/main/setup.sh | bash 
 ```
 
 ## Usage
