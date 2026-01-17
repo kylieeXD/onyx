@@ -29,7 +29,7 @@ curl -LSs https://raw.githubusercontent.com/kylieeXD/onyx/refs/heads/main/setup.
 - this some guide that maybe can help you
 
 ## Some Instructions
-1) flash fastboot room
+1) flash fastboot rom
     - u should download the fastboot rom first
     - extract the rom & go to the directory
     - example: use this command if your rom named "miui14" and in the Download directory
