@@ -41,7 +41,7 @@ bash setup.sh
 cd /sdcard/Download/miui14/
 bash flash_all.sh
 ```
-    - note: not all fastboot rom that have the flashable file to flashing rom
+    - NOTE: not all fastboot rom that have the flashable file to flashing rom
     - miui/hyperos stock rom have 3 list files:
 ```
 flash_all.sh (flash, format data)
@@ -66,4 +66,12 @@ fastboot flash boot /path/to/boot.img
     - this how to lock bootloader
 ```console
 fastboot oem lock
+```
+
+4) Sideload recovery rom
+    - this how to flash any custom rom using ofox or twrp or custom recovery
+    - download the recovery (make sure they have *.zip extension)
+    - example: if your file named ```rom.zip``` and locate in Download directory use this command
+```console
+adb sideload /sdcard/Download/rom.zip
 ```
