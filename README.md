@@ -24,6 +24,16 @@
 curl -LSs https://raw.githubusercontent.com/kylieeXD/onyx/refs/heads/main/setup.sh | bash 
 ```
 
+### Check the packages
+- if all packages already installed, try test if the file exist.
+- example: check the version
+```console
+fastboot --version
+```
+```console
+adb --version
+```
+
 ## Usage
 - after done with all this step, u can use the tool for flash rom fastboot/recovery
 - this some guide that maybe can help you
