@@ -1,5 +1,10 @@
 # This guide how to flash any rom using termux
 
+## Requirements
+1) Two Android device (Host & Target)
+2) USB Otg & Data cable
+3) Internet Connection
+
 ### First step
 - you should install the required utils
 1. [termux](https://f-droid.org/id/packages/com.termux/)
