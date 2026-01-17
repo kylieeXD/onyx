@@ -8,3 +8,5 @@ echo -e "deb https://nohajc.github.io termux extras" > $PREFIX/etc/apt/sources.l
 wget -qP $PREFIX/etc/apt/trusted.gpg.d https://nohajc.github.io/nohajc.gpg
 apt update
 apt install termux-adb
+ln -sf $PREFIX/bin/termux-fastboot $PREFIX/bin/fastboot
+ln -sf $PREFIX/bin/termux-adb $PREFIX/bin/adb
